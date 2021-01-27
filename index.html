@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bin2Dec</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="container">
+                <h1>Bin2Dec</h1>
+                               
+                        <p>Binary: 
+                            <input
+                            id="inputBin" 
+                            maxlength="8" 
+                            type="text" 
+                            pattern="[0-1]{1,8}"                        
+                            title="Only 0 and 1, up to 8 digits"/>
+                        </p>
+                     
+                        <button id="convert" onclick="convertBinary()" >Bin2Dec</button>
+                                  
+                        <p>Decimal:
+                            <input id="inputDec" type="text"/>
+                        </p>
+                    
+                
+        </div>
+    </body>
+    <script src="./main.js"></script>
+</html>
